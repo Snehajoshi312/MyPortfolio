@@ -1,0 +1,91 @@
+/* Header Styling */
+#header{
+    color: rgb(1, 82, 85);
+    background-color: #023044;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu{
+    
+    list-style: none;
+    margin: auto;
+    padding: auto;
+    font-size: 18px;
+
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px;
+}
+#menu li a:hover{
+    background-color: #1e6280;
+}
+/* Banner Styling */
+#banner{
+    background: url('img/111.png') no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 4rem;
+    padding-left: 50px;
+    padding-right: 20px;
+
+}
+.banner-title h2{
+    background-color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+.banner-title p.lead{
+    background-color: rgba(48, 125, 161, 0.5);
+    padding: 10px;
+    color: #fff;
+}
+.side-img{
+    padding-top: 10px;
+    padding-left: 60px;
+    
+}
+.profile{
+    margin: 0;
+    padding: 20px;
+    
+}
+.doc-btn{
+    padding-top: 10px;
+  
+    margin: 0;
+    align-items: center;
+    padding-left: 15rem;
+}
+/* Sction Style*/
+.section{
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+.section h2.section-head{
+color: #000;
+text-align: center;
+margin-bottom: 40px;
+}
+.section-box {
+    text-align: center;
+}
+.section-text {
+    text-align: center;
+}
+/* footer */
+#footer{
+    text-align: center;
+    color: #fff;
+    background-color: #023044;
+    padding: 20px;
+}
